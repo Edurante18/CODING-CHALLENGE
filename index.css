@@ -1,0 +1,83 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: helvetica
+}
+
+img {
+  width: 25%;
+  margin-bottom: 10px
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 700px;
+  border-radius: 10px;
+  padding: 75px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+header>div {
+  color: #00DD00;
+  text-align: center;
+  font-size: 24px;
+  margin-top: -5px
+}
+
+main, img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav {
+  text-align: center;
+  background-color: #00DD00;
+  margin-top: 10px;
+  padding: 7px
+}
+
+nav>input {
+  font-size: 10px
+}
+
+section>strong {
+  font-size: 16px;
+  color: white
+}
+
+div.address {
+  font-size: 12px;
+  color: white;
+  display: block;
+  }
+
+div.address::before {
+  content: "\21A6"
+}
+
+div.address::after {
+  content: "Stato carica:"
+}
+
+.rounded_rectangle {
+  height: 15px;
+  border-radius: 5px;
+  margin-top: 5px
+}
+
+.rounded_rectangle.orange {
+  background-color: #F5B453;
+  width: 30%;
+}
+
+.rounded_rectangle.green {
+  background-color: #1EC31E;
+  width: 60%;
+}
+
+.rounded_rectangle.red {
+  background-color: #BE4141;
+  width: 15%;
+}
